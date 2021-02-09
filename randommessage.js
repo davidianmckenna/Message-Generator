@@ -1,4 +1,4 @@
-const firstComponents = ['Plants are', 'Humans are', 'Animals are', 'Centipedes are', 'Kids are', 'Sticks are'];
+const opener = ['Plants are', 'Humans are', 'Animals are', 'Centipedes are', 'Kids are', 'Sticks are'];
 const description = ['smelly and gross', 'molded by time', 'swept up in thier own problems', 'concerned with higher problems', 'the building blocks of reality'];
 const finisher = ['and so are you.', 'for that is the way of things.', 'but don\'t think that protects you from fate.', 'and you are a pleb.'];
 
@@ -15,6 +15,6 @@ const string = randomMessage.join(' ');
 return console.log(string);
 }
 
-generateMessage(firstComponents, description, finisher);
+generateMessage(opener, description, finisher);
 
 
